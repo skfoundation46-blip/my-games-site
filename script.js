@@ -14,3 +14,9 @@ search.addEventListener("keyup", function () {
     }
   });
 });
+document.getElementById("search").addEventListener("keyup",function(){
+let value=this.value.toLowerCase();
+document.querySelectorAll(".game-card").forEach(card=>{
+card.style.display=card.innerText.toLowerCase().includes(value)?"block":"none";
+});
+});
