@@ -199,3 +199,41 @@ games.forEach(game => {
 {name:"Lucky Spin",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/luckyspin.png",link:"#"},
 {name:"Royal Win",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/royalwin.png",link:"#"},
 {name:"Jackpot Pro",bonus:"₹120 Bonus",redeem:"Min ₹100",image:"images/jackpotpro.png",link:"#"},
+{name:"Casino 777",bonus:"₹150 Bonus",redeem:"Min ₹100",image:"images/casino777.png",link:"#"},
+{name:"Royal Slots",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/royalslots.png",link:"#"},
+{name:"Golden Win",bonus:"₹80 Bonus",redeem:"Min ₹100",image:"images/goldenwin.png",link:"#"},
+{name:"ABC Rummy",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/abcrummy.png",link:"#"},
+{name:"A23 Rummy",bonus:"₹151 Bonus",redeem:"Min ₹100",image:"images/a23rummy.png",link:"#"},
+{name:"Junglee Rummy",bonus:"₹51 Bonus",redeem:"Min ₹100",image:"images/jungleerummy.png",link:"#"},
+{name:"Rummy Gold",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/rummygold.png",link:"#"},
+{name:"Rummy Nabob",bonus:"₹75 Bonus",redeem:"Min ₹100",image:"images/rummynabob.png",link:"#"},
+{name:"Teen Patti Gold",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpattigold.png",link:"#"},
+{name:"Teen Patti Lucky",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpattilucky.png",link:"#"},
+{name:"Teen Patti Star",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpattistar.png",link:"#"},
+{name:"Teen Patti Joy",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpattijoy.png",link:"#"},
+{name:"Teen Patti Ace",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpattiace.png",link:"#"},
+{name:"Teen Patti Cash",bonus:"₹100 Bonus",redeem:"Min ₹100",image:"images/teenpatticash.png",link:"#"},
+{name:"Moon Club",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/moonclub.png",link:"#"},
+{name:"Dream Club",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/dreamclub.png",link:"#"},
+{name:"Cash Mania",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/cashmania.png",link:"#"},
+{name:"Dragon Win",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/dragonwin.png",link:"#"},
+{name:"Tiger Club",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/tigerclub.png",link:"#"},
+{name:"Spin Master",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/spinmaster.png",link:"#"},
+{name:"Diamond Win",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/diamondwin.png",link:"#"},
+{name:"Fortune Club",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/fortuneclub.png",link:"#"},
+{name:"Prime Win",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/primewin.png",link:"#"},
+{name:"Infinity Game",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/infinitygame.png",link:"#"},
+{name:"Ultimate Win",bonus:"₹88 Bonus",redeem:"Min ₹100",image:"images/ultimatewin.png",link:"#"}
+];const container = document.getElementById("games");
+
+games.forEach(game => {
+  container.innerHTML += `
+    <div class="game-card">
+      <img src="${game.image}" alt="${game.name}">
+      <h3>${game.name}</h3>
+      <p class="bonus">${game.bonus}</p>
+      <p class="redeem">${game.redeem}</p>
+      <a href="${game.link}" class="download-btn" target="_blank">Download Now</a>
+    </div>
+  `;
+});
