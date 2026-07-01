@@ -1,4 +1,4 @@
- const games = [
+8 const games = [
 {
 name: "51 Game",
 bonus: "₹28 Bonus",
@@ -68,3 +68,46 @@ image:"https://via.placeholder.com/300x200?text=Raja+Luck",
 link:"#"
 }
 ];
+const games=[
+{
+name:"51 Game",
+image:"https://via.placeholder.com/300x200?text=51+Game",
+link:"#"
+},
+{
+name:"91 Club",
+image:"https://via.placeholder.com/300x200?text=91+Club",
+link:"#"
+},
+{
+name:"BDG Win",
+image:"https://via.placeholder.com/300x200?text=BDG+Win",
+link:"#"
+},
+{
+name:"OK Win",
+image:"https://via.placeholder.com/300x200?text=OK+Win",
+link:"#"
+},
+{
+name:"KWG Game",
+image:"https://via.placeholder.com/300x200?text=KWG+Game",
+link:"#"
+},
+{
+name:"Raja Luck",
+image:"https://via.placeholder.com/300x200?text=Raja+Luck",
+link:"#"
+}
+];
+
+const container=document.getElementById("games");
+
+games.forEach(game=>{
+container.innerHTML+=`
+<div class="game-card">
+<img src="${game.image}">
+<h3>${game.name}</h3>
+<a class="download-btn" href="${game.link}">Play Now</a>
+</div>`;
+});
