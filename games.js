@@ -139,3 +139,143 @@ redeem:"Min ₹100",
 image:"images/tpm.png",
 link:"#"
 },
+{
+name:"Teen Patti Gold",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpgold.png",
+link:"#"
+},
+{
+name:"Teen Patti Lucky",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpluck.png",
+link:"#"
+},
+{
+name:"Teen Patti Star",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpstar.png",
+link:"#"
+},
+{
+name:"Teen Patti Joy",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpjoy.png",
+link:"#"
+},
+{
+name:"Teen Patti Ace",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpace.png",
+link:"#"
+},
+{
+name:"Teen Patti Cash",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/tpcash.png",
+link:"#"
+},
+{
+name:"Yono VIP",
+bonus:"₹500 Bonus",
+redeem:"Min ₹100",
+image:"images/yonovip.png",
+link:"#"
+},
+{
+name:"Yono Rummy",
+bonus:"₹1500 Bonus",
+redeem:"Min ₹100",
+image:"images/yonorummy.png",
+link:"#"
+},
+{
+name:"Spin Winner",
+bonus:"₹1500 Bonus",
+redeem:"Min ₹100",
+image:"images/spinwinner.png",
+link:"#"
+},
+{
+name:"789 Jackpots",
+bonus:"₹1100 Bonus",
+redeem:"Min ₹100",
+image:"images/789jackpots.png",
+link:"#"
+},
+{
+name:"567 Slots",
+bonus:"₹600 Bonus",
+redeem:"Min ₹100",
+image:"images/567slots.png",
+link:"#"
+},
+{
+name:"IND Slots",
+bonus:"₹1200 Bonus",
+redeem:"Min ₹100",
+image:"images/indslots.png",
+link:"#"
+},
+{
+name:"Bingo 101",
+bonus:"₹900 Bonus",
+redeem:"Min ₹100",
+image:"images/bingo101.png",
+link:"#"
+},
+{
+name:"MKM Bet",
+bonus:"₹600 Bonus",
+redeem:"Min ₹100",
+image:"images/mkmbet.png",
+link:"#"
+},
+{
+name:"Royal Slots",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/royalslots.png",
+link:"#"
+},
+{
+name:"Golden Win",
+bonus:"₹80 Bonus",
+redeem:"Min ₹100",
+image:"images/goldenwin.png",
+link:"#"
+},
+{
+name:"ABC Rummy",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/abcrummy.png",
+link:"#"
+},
+{
+name:"Rummy Gold",
+bonus:"₹100 Bonus",
+redeem:"Min ₹100",
+image:"images/rummygold.png",
+link:"#"
+},
+{
+name:"Rummy Nabob",
+bonus:"₹75 Bonus",
+redeem:"Min ₹100",
+image:"images/rummynabob.png",
+link:"#"
+},
+{
+name:"Moon Club",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/moonclub.png",
+link:"#"
+},
