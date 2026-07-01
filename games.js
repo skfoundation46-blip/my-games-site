@@ -279,3 +279,90 @@ redeem:"Min ₹100",
 image:"images/moonclub.png",
 link:"#"
 },
+{
+name:"Dream Club",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/dreamclub.png",
+link:"#"
+},
+{
+name:"Cash Mania",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/cashmania.png",
+link:"#"
+},
+{
+name:"Dragon Win",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/dragonwin.png",
+link:"#"
+},
+{
+name:"Tiger Club",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/tigerclub.png",
+link:"#"
+},
+{
+name:"Spin Master",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/spinmaster.png",
+link:"#"
+},
+{
+name:"Diamond Win",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/diamondwin.png",
+link:"#"
+},
+{
+name:"Fortune Club",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/fortuneclub.png",
+link:"#"
+},
+{
+name:"Prime Win",
+bonus:"₹88 Bonus",
+redeem:"Min ₹100",
+image:"images/primewin.png",
+link:"#"
+},
+{
+name:"Galaxy Game",
+bonus:"₹120 Bonus",
+redeem:"Min ₹100",
+image:"images/galaxygame.png",
+link:"#"
+},
+{
+name:"Mega Win",
+bonus:"₹150 Bonus",
+redeem:"Min ₹100",
+image:"images/megawin.png",
+link:"#"
+}
+];
+
+const container = document.getElementById("games");
+
+games.forEach(game => {
+  container.innerHTML += `
+    <div class="game-card">
+      <img src="${game.image}" alt="${game.name}">
+      <h3>${game.name}</h3>
+      <p class="bonus">${game.bonus}</p>
+      <p class="redeem">${game.redeem}</p>
+      <a href="${game.link}" class="download-btn" target="_blank">
+        Download Now
+      </a>
+    </div>
+  `;
+});
