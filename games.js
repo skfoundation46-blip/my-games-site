@@ -163,3 +163,14 @@ const games = [
 {name:"Infinity Game",image:"https://via.placeholder.com/300x200?text=Infinity+Game",link:"#"},
 {name:"Ultimate Win",image:"https://via.placeholder.com/300x200?text=Ultimate+Win",link:"#"}
 ];
+const container = document.getElementById("games");
+
+games.forEach(game => {
+  container.innerHTML += `
+    <div class="game-card">
+      <img src="${game.image}" alt="${game.name}">
+      <h3>${game.name}</h3>
+      <a class="download-btn" href="${game.link}">Play Now</a>
+    </div>
+  `;
+});
