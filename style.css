@@ -75,3 +75,28 @@ h2{
   color:#0a8f3d;
   margin-top:20px;
 }
+.hero-banner{
+  background:linear-gradient(135deg,#0a8f3d,#18c964);
+  color:#fff;
+  text-align:center;
+  padding:40px 20px;
+}
+
+.hero-banner h2{
+  font-size:32px;
+  margin:0 0 10px;
+}
+
+.hero-banner p{
+  margin:0 0 20px;
+}
+
+.hero-btn{
+  display:inline-block;
+  background:#ff9800;
+  color:#fff;
+  padding:12px 25px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+}
