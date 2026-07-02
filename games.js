@@ -366,3 +366,20 @@ games.forEach(game => {
     </div>
   `;
 });
+{
+  name: "Mega Win",
+  bonus: "₹150 Bonus",
+  redeem: "Min ₹100",
+  image: "images/megawin.png",
+  link: "#"
+},
+
+{
+  name: "ABC RUMMY",
+  bonus: "₹100 Bonus",
+  redeem: "Min ₹100",
+  image: "images/abcrummy.png",
+  link: "https://www.11abcrummy.com/?code=75CAZX4PBFD&t=1782980303"
+}
+
+];
